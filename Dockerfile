@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY server.js .
 COPY index.html .
-COPY images ./images
+COPY public ./public
 COPY package.json .
 
 RUN npm install
