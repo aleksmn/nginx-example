@@ -5,7 +5,7 @@ const port = 3000;
 
 const appName = process.env.APP_NAME
 
-app.use('/images', express.static(path.join(__dirname, 'images')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
@@ -13,5 +13,5 @@ app.use('/', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`${appName} is listening on port ${port}`);
+    console.log(`${appName} is listening on port http://localhost:${port}`);
 });

@@ -4,13 +4,14 @@
     "description": "A Node.js application serving a static HTML file, used for load balancing with NGINX.",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js",
+        "dev": "nodemon server.js"
     },
     "author": "Your Name",
     "license": "MIT",
     "dependencies": {
-      "express": "^4.17.1",
-      "path": "^0.12.7"
+        "express": "^4.17.1",
+        "nodemon": "^3.1.9",
+        "path": "^0.12.7"
     }
-  }
-  
+}
