@@ -1,4 +1,4 @@
-### This is an example Nginx Crash Course
+## This is an example Nginx Site
 
 ### Usefull commands
 
